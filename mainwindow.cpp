@@ -13,13 +13,13 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-//void MainWindow::on_pushButton_clicked()
-//{
-//    QString string;
-//    string = ("1234");
-//    QFile file("image.ini");
-//    file.write((char*)string,sizeof(string));
-//}
+void MainWindow::on_pushButton_clicked()
+{
+    QString string;
+    string = ("1234");
+    QFile file("image.ini");
+    file.write((char*)string,sizeof(string));
+}
 
 
 
