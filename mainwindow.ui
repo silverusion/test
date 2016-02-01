@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1307</width>
+    <height>784</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>5000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>1079</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="ViewClass" name="ViewImage"/>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="minimumSize">
+        <size>
+         <width>250</width>
+         <height>200</height>
+        </size>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>180</y>
+          <width>241</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>SingleSnapshot</string>
+        </property>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>30</y>
+           <width>75</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Move On</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="geometry">
+          <rect>
+           <x>14</x>
+           <y>130</y>
+           <width>201</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>GetImage</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>80</y>
+           <width>75</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>X-Ray On</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>46</width>
+           <height>13</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>StepSize</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>40</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>70</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>100</y>
+           <width>61</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>70</y>
+           <width>46</width>
+           <height>13</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>U,kV</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>100</y>
+           <width>46</width>
+           <height>13</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>I,mcA</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>350</y>
+          <width>241</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>AutoScan</string>
+        </property>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>132</x>
+           <y>30</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>91</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>   NumberOfSteps</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>130</y>
+           <width>211</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>StartScan</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>60</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>U,kV</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>90</y>
+           <width>81</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>I,mcA</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>60</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>90</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>60</y>
+           <width>46</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>190</x>
+           <y>90</y>
+           <width>46</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QGraphicsView" name="HistView">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>241</width>
+          <height>171</height>
+         </rect>
+        </property>
+       </widget>
+       <zorder>ViewImage</zorder>
+       <zorder>groupBox</zorder>
+       <zorder>groupBox_2</zorder>
+       <zorder>HistView</zorder>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1307</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ViewClass</class>
+   <extends>QGraphicsView</extends>
+   <header>viewclass.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
